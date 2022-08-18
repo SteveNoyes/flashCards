@@ -70,32 +70,3 @@ addFlashcard = () => {
   question.value = "";
   answer.value = "";
 }
-
-
-
-
-
-
-
-//=========================================
-//              RANDOM CODE
-//=========================================
-
-
-// create a variable to hold name
-let name = "Steven";
-// create a variable to print to console
-const greet = "Hello " + name;
-// create function to to print to console
-function greeting() {
-  console.log(greet);
-}
-// call function
-greeting();
-
-// If you're going to teach a computer how to tie shoes
-// You have to think of the step by step, no assumptions
-// method that anything can follow.
-
-// go through all the steps only to have not put foot in shoe as
-// first step

@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body{
   font-family: 'Nunito', sans-serif;
   font-size: 1rem;
@@ -43,7 +37,7 @@ header{background-color: #fff;}
 
 #header button{
   font-family: inherit;
-  border: 1px solid red;
+  border: 1px solid black;
 }
 
 #create_card{
@@ -131,73 +125,3 @@ header{background-color: #fff;}
   .flashcard{width: 100%;}
 
 }
-
-
-/*====================================
-              OLD CODE
-====================================*/
-
-/* body {
-  font-size: 16px;
-  line-height: 1.5em;
-  background-color: grey;
-}
-
-h1 {
-  font-size: 20px;
-}
-
-.grow {
-  transition: all .2s ease-in-out;
-}
-
-.grow:hover {
-  transform: scale(1.1);
-}
-
-.container {
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.child {
-  margin-top: 6em;
-  padding: 1em 0;
-  box-shadow: 7px 7px 3px #aaaaaa;
-  background-color: white;
-}
-
-.title {
-  border-bottom: 1px solid black;
-  padding-bottom: .2em;
-  margin-bottom: 2em;
-}
-
-.question {
-  width: 80%;
-  margin: auto;
-  padding: 1em 0 2em 0;
-}
-
-.term {
-  padding: 1em 0;
-}
-
-.btnContainer {
-  display: flex;
-  flex-direction: column;
-  width: 70%;
-  margin: auto;
-  justify-content: space-between;
-}
-
-.btnContainer button {
-  padding: 1em 0;
-  margin: 1em 0;
-}
-
-.btnContainer button:hover {
-  cursor: pointer;
-} */
