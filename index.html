@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" type="image/png" href="flashcard.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <title>js flashcards</title>
+  <link rel="stylesheet" href="/assets/css/reset.css">
+  <link rel="stylesheet" href="/assets/css/style.css" type="text/css">
+  <script src="/assets/js/script.js" charset="utf-8" async></script>
+</head>
+<body>
+
+  <main>
+
+    <header>
+      <div class="container">
+        <div id="header">
+          <h1>Flashcards</h1>
+          <div>
+            <button id="show_card_box">Add Card</button>
+            <button id="delete_cards">Delete Cards</button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section>
+      <div class="container">
+        <div id="create_card">
+          <h2>Create Flashcard</h2>
+          <label for="question">Question</label>
+          <textarea id="question" maxlength="280"></textarea>
+          <label for="answer" maxlength="280">Answer</label>
+          <br>
+          <textarea id="answer"></textarea>
+          <div>
+            <button id="save_card">Save</button> <button id="close_card_box">Close</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div id="flashcards"></div>
+      </div>
+    </section>
+
+  </main>
+
+
+
+<!--=======================================
+========================================-->
+
+
+  <!-- MY FIRST TRY :) -->
+  <!-- <div class="container">
+    <div class="child">
+      <h1 class="title">js flashcards</h1>
+      <div class="question">
+        <h3>How would you write out hello world to the console in Javascript?</h3>
+      </div>
+      <div class="term">
+        <h4>pick your answer</h4>
+      </div>
+      <div class="btnContainer">
+        <button class="grow">&lt;console.print = hello world&gt;</button>
+        <button class="grow">console.log.printf() { 'hello world'; }</button>
+        <button class="grow">console.log('hello world');</button>
+        <button class="grow">consoleLog = 'hello world';</button>
+      </div>
+    </div>
+  </div> -->
+</body>
+</html>
